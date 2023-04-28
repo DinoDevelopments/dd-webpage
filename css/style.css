@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 :root {
-  --yellow:#f5bf23;
+  --yellow:#FF5F1F;
   --black:#111;
   --white:#fff;
   --light-color:#666;
@@ -412,7 +412,7 @@ section {
 
 .home .slide .content p {
   font-size: 1.4rem;
-  color: var(--light-color);
+  color: var(--black);
   line-height: 2;
   padding: 1rem 0;
 }
@@ -442,6 +442,14 @@ section {
 
 .home .swiper-button-prev {
   right: 7rem;
+}
+
+.about {
+  background: var(--black);
+}
+
+.about .heading {
+  color: var(--white);
 }
 
 .about .row {
@@ -480,9 +488,19 @@ section {
 
 .about .row .content p {
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--white);
   line-height: 2;
   padding: 1rem 0;
+}
+
+.about .row .content .btn {
+  color: var(--black) !important;
+  background: var(--white) !important;
+}
+
+.about .row .content .btn:hover {
+  background: var(--yellow) !important;
+  
 }
 
 .about .box-container {
@@ -637,6 +655,7 @@ section {
   line-height: 7.5rem;
 }
 
+/*
 .reviews .slide p {
   padding: 1.5rem;
   background: var(--light-bg);
@@ -749,6 +768,7 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+*/
 
 .contact {
   background: var(--black);
@@ -806,6 +826,7 @@ section {
   resize: none;
 }
 
+/*
 .blogs {
   background: var(--light-bg);
 }
@@ -856,6 +877,7 @@ section {
   color: var(--light-color);
   line-height: 2;
 }
+*/
 
 .logo-container {
   text-align: center;
