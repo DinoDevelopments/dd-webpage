@@ -982,4 +982,10 @@ section {
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  #iconBlack {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
